@@ -1,0 +1,149 @@
+*{
+    box-sizing: border-box;
+    top:0;
+    margin-top: 0;
+}
+.container
+{
+    text-align: center;
+   
+}
+#home{
+height:300px;
+}
+.head1,.head2{
+    font-family: 'Water Brush', cursive;
+    text-align: center;
+    font-size: 50px;
+}
+.page-header{
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+.row{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+.p1{
+    font-size: 15px;
+    font-family: Arial;
+    flex-basis: 50%;
+    flex-shrink: 0;
+    flex-grow: 1;
+} 
+.m1{
+    flex-basis: 50%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    }
+    
+.menu1{
+    /* display: inline-block; */
+    box-shadow:20px 20px 50px 10px pink inset;
+float:left;
+list-style:none;
+color:#000;
+position:fixed;
+background:rgba(63, 53, 53, 0);
+width:100%;
+margin-top:0px;
+top:0px;
+z-index:10;
+padding: 10px 10px;
+}
+.links{
+display:inline;
+font-size:20px;
+padding-left:35px;
+padding-right:35px;
+color: #000;
+}
+.menuitem{
+    color: #000;
+    /* font-family: 'Dancing Script', cursive; */
+   /*  font-family: 'Splash', cursive; */
+   font-family: 'Water Brush', cursive;
+   font-size: 25px;
+    
+}
+#img1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    color: antiquewhite;
+    background-size:cover;
+  width: 100%;
+  height: 100%;
+  margin-top: 0; top: 0;
+  background-color: rgba(0,0,0,0.5);
+}
+.head11{
+    display:block;
+    font-family: 'Water Brush', cursive;
+    text-align: center;
+    font-size: 100px;
+    
+    
+}.footer{
+    color: white;
+    height:50px;
+    text-align: center;
+    font-weight: bold;
+}
+
+ .img2{
+    width: 250px;
+    height: 200px;
+}/*
+.thumb{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.modal-content
+{
+  margin-top: 100px;
+}
+
+.img_modal
+  {
+    display: inline-block;
+  }
+
+.modal-body
+{
+    text-align: center
+}
+#contact iframe
+{
+    width: 100%;
+}
+.contact_1 h3
+{
+    display: inline;
+}
+.contact_1 a
+{
+    text-shadow: none;
+}
+#myCarousel
+{
+    background-color: red;
+}
+
+#myCarousel img
+{
+    height: 350px;
+       }
+
+.carousel-inner p
+{
+    margin-bottom: 15px;
+    margin-top: 15px;
+    color : white;
+    font-size: 20px;
+}
+ */
